@@ -1,0 +1,891 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO cby_0__1_
+  CLASS BLOCK ;
+  FOREIGN cby_0__1_ ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 200.000 BY 210.000 ;
+  PIN IO_ISOL_N
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 17.040 4.000 17.640 ;
+    END
+  END IO_ISOL_N
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 97.840 10.640 99.440 198.800 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 21.040 10.640 22.640 198.800 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 174.640 10.640 176.240 198.800 ;
+    END
+  END VPWR
+  PIN ccff_head
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 183.630 206.000 183.910 210.000 ;
+    END
+  END ccff_head
+  PIN ccff_tail
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 91.840 4.000 92.440 ;
+    END
+  END ccff_tail
+  PIN chany_bottom_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 183.630 0.000 183.910 4.000 ;
+    END
+  END chany_bottom_in[0]
+  PIN chany_bottom_in[10]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 70.930 206.000 71.210 210.000 ;
+    END
+  END chany_bottom_in[10]
+  PIN chany_bottom_in[11]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 80.590 206.000 80.870 210.000 ;
+    END
+  END chany_bottom_in[11]
+  PIN chany_bottom_in[12]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 87.030 206.000 87.310 210.000 ;
+    END
+  END chany_bottom_in[12]
+  PIN chany_bottom_in[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 77.370 0.000 77.650 4.000 ;
+    END
+  END chany_bottom_in[13]
+  PIN chany_bottom_in[14]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 47.640 200.000 48.240 ;
+    END
+  END chany_bottom_in[14]
+  PIN chany_bottom_in[15]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 177.190 206.000 177.470 210.000 ;
+    END
+  END chany_bottom_in[15]
+  PIN chany_bottom_in[16]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 106.350 206.000 106.630 210.000 ;
+    END
+  END chany_bottom_in[16]
+  PIN chany_bottom_in[17]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 67.710 0.000 67.990 4.000 ;
+    END
+  END chany_bottom_in[17]
+  PIN chany_bottom_in[18]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 64.640 200.000 65.240 ;
+    END
+  END chany_bottom_in[18]
+  PIN chany_bottom_in[19]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 91.840 200.000 92.440 ;
+    END
+  END chany_bottom_in[19]
+  PIN chany_bottom_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 187.040 200.000 187.640 ;
+    END
+  END chany_bottom_in[1]
+  PIN chany_bottom_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 166.640 200.000 167.240 ;
+    END
+  END chany_bottom_in[2]
+  PIN chany_bottom_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 27.240 200.000 27.840 ;
+    END
+  END chany_bottom_in[3]
+  PIN chany_bottom_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 146.240 4.000 146.840 ;
+    END
+  END chany_bottom_in[4]
+  PIN chany_bottom_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 41.950 0.000 42.230 4.000 ;
+    END
+  END chany_bottom_in[5]
+  PIN chany_bottom_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 139.440 200.000 140.040 ;
+    END
+  END chany_bottom_in[6]
+  PIN chany_bottom_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 156.440 4.000 157.040 ;
+    END
+  END chany_bottom_in[7]
+  PIN chany_bottom_in[8]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 71.440 4.000 72.040 ;
+    END
+  END chany_bottom_in[8]
+  PIN chany_bottom_in[9]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 149.640 200.000 150.240 ;
+    END
+  END chany_bottom_in[9]
+  PIN chany_bottom_out[0]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 190.070 0.000 190.350 4.000 ;
+    END
+  END chany_bottom_out[0]
+  PIN chany_bottom_out[10]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 122.450 206.000 122.730 210.000 ;
+    END
+  END chany_bottom_out[10]
+  PIN chany_bottom_out[11]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 206.000 0.370 210.000 ;
+    END
+  END chany_bottom_out[11]
+  PIN chany_bottom_out[12]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 159.840 200.000 160.440 ;
+    END
+  END chany_bottom_out[12]
+  PIN chany_bottom_out[13]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 98.640 4.000 99.240 ;
+    END
+  END chany_bottom_out[13]
+  PIN chany_bottom_out[14]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 119.040 4.000 119.640 ;
+    END
+  END chany_bottom_out[14]
+  PIN chany_bottom_out[15]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 6.840 4.000 7.440 ;
+    END
+  END chany_bottom_out[15]
+  PIN chany_bottom_out[16]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 157.870 0.000 158.150 4.000 ;
+    END
+  END chany_bottom_out[16]
+  PIN chany_bottom_out[17]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 173.440 4.000 174.040 ;
+    END
+  END chany_bottom_out[17]
+  PIN chany_bottom_out[18]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 132.110 206.000 132.390 210.000 ;
+    END
+  END chany_bottom_out[18]
+  PIN chany_bottom_out[19]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 141.770 206.000 142.050 210.000 ;
+    END
+  END chany_bottom_out[19]
+  PIN chany_bottom_out[1]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 173.970 0.000 174.250 4.000 ;
+    END
+  END chany_bottom_out[1]
+  PIN chany_bottom_out[2]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 96.690 206.000 96.970 210.000 ;
+    END
+  END chany_bottom_out[2]
+  PIN chany_bottom_out[3]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 176.840 200.000 177.440 ;
+    END
+  END chany_bottom_out[3]
+  PIN chany_bottom_out[4]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 122.450 0.000 122.730 4.000 ;
+    END
+  END chany_bottom_out[4]
+  PIN chany_bottom_out[5]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 108.840 4.000 109.440 ;
+    END
+  END chany_bottom_out[5]
+  PIN chany_bottom_out[6]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 10.240 200.000 10.840 ;
+    END
+  END chany_bottom_out[6]
+  PIN chany_bottom_out[7]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 85.040 200.000 85.640 ;
+    END
+  END chany_bottom_out[7]
+  PIN chany_bottom_out[8]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 200.640 4.000 201.240 ;
+    END
+  END chany_bottom_out[8]
+  PIN chany_bottom_out[9]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 54.440 4.000 55.040 ;
+    END
+  END chany_bottom_out[9]
+  PIN chany_top_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 166.640 4.000 167.240 ;
+    END
+  END chany_top_in[0]
+  PIN chany_top_in[10]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 34.040 4.000 34.640 ;
+    END
+  END chany_top_in[10]
+  PIN chany_top_in[11]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 193.840 200.000 194.440 ;
+    END
+  END chany_top_in[11]
+  PIN chany_top_in[12]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 35.510 206.000 35.790 210.000 ;
+    END
+  END chany_top_in[12]
+  PIN chany_top_in[13]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 16.190 0.000 16.470 4.000 ;
+    END
+  END chany_top_in[13]
+  PIN chany_top_in[14]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 51.610 0.000 51.890 4.000 ;
+    END
+  END chany_top_in[14]
+  PIN chany_top_in[15]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 164.310 0.000 164.590 4.000 ;
+    END
+  END chany_top_in[15]
+  PIN chany_top_in[16]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 74.840 200.000 75.440 ;
+    END
+  END chany_top_in[16]
+  PIN chany_top_in[17]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 37.440 200.000 38.040 ;
+    END
+  END chany_top_in[17]
+  PIN chany_top_in[18]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 128.890 0.000 129.170 4.000 ;
+    END
+  END chany_top_in[18]
+  PIN chany_top_in[19]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 193.840 4.000 194.440 ;
+    END
+  END chany_top_in[19]
+  PIN chany_top_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 0.040 200.000 0.640 ;
+    END
+  END chany_top_in[1]
+  PIN chany_top_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 44.240 4.000 44.840 ;
+    END
+  END chany_top_in[2]
+  PIN chany_top_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 57.840 200.000 58.440 ;
+    END
+  END chany_top_in[3]
+  PIN chany_top_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 129.240 4.000 129.840 ;
+    END
+  END chany_top_in[4]
+  PIN chany_top_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 148.210 0.000 148.490 4.000 ;
+    END
+  END chany_top_in[5]
+  PIN chany_top_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 129.240 200.000 129.840 ;
+    END
+  END chany_top_in[6]
+  PIN chany_top_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 54.830 206.000 55.110 210.000 ;
+    END
+  END chany_top_in[7]
+  PIN chany_top_in[8]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 25.850 206.000 26.130 210.000 ;
+    END
+  END chany_top_in[8]
+  PIN chany_top_in[9]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 93.470 0.000 93.750 4.000 ;
+    END
+  END chany_top_in[9]
+  PIN chany_top_out[0]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END chany_top_out[0]
+  PIN chany_top_out[10]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 112.790 0.000 113.070 4.000 ;
+    END
+  END chany_top_out[10]
+  PIN chany_top_out[11]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 61.270 206.000 61.550 210.000 ;
+    END
+  END chany_top_out[11]
+  PIN chany_top_out[12]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 116.010 206.000 116.290 210.000 ;
+    END
+  END chany_top_out[12]
+  PIN chany_top_out[13]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 167.530 206.000 167.810 210.000 ;
+    END
+  END chany_top_out[13]
+  PIN chany_top_out[14]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 136.040 4.000 136.640 ;
+    END
+  END chany_top_out[14]
+  PIN chany_top_out[15]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 25.850 0.000 26.130 4.000 ;
+    END
+  END chany_top_out[15]
+  PIN chany_top_out[16]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 6.530 0.000 6.810 4.000 ;
+    END
+  END chany_top_out[16]
+  PIN chany_top_out[17]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 193.290 206.000 193.570 210.000 ;
+    END
+  END chany_top_out[17]
+  PIN chany_top_out[18]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 151.430 206.000 151.710 210.000 ;
+    END
+  END chany_top_out[18]
+  PIN chany_top_out[19]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 87.030 0.000 87.310 4.000 ;
+    END
+  END chany_top_out[19]
+  PIN chany_top_out[1]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 204.040 200.000 204.640 ;
+    END
+  END chany_top_out[1]
+  PIN chany_top_out[2]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 20.440 200.000 21.040 ;
+    END
+  END chany_top_out[2]
+  PIN chany_top_out[3]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 19.410 206.000 19.690 210.000 ;
+    END
+  END chany_top_out[3]
+  PIN chany_top_out[4]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 112.240 200.000 112.840 ;
+    END
+  END chany_top_out[4]
+  PIN chany_top_out[5]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 32.290 0.000 32.570 4.000 ;
+    END
+  END chany_top_out[5]
+  PIN chany_top_out[6]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 61.270 0.000 61.550 4.000 ;
+    END
+  END chany_top_out[6]
+  PIN chany_top_out[7]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 81.640 4.000 82.240 ;
+    END
+  END chany_top_out[7]
+  PIN chany_top_out[8]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 122.440 200.000 123.040 ;
+    END
+  END chany_top_out[8]
+  PIN chany_top_out[9]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 103.130 0.000 103.410 4.000 ;
+    END
+  END chany_top_out[9]
+  PIN gfpga_pad_EMBEDDED_IO_HD_SOC_DIR
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 27.240 4.000 27.840 ;
+    END
+  END gfpga_pad_EMBEDDED_IO_HD_SOC_DIR
+  PIN gfpga_pad_EMBEDDED_IO_HD_SOC_IN
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 157.870 206.000 158.150 210.000 ;
+    END
+  END gfpga_pad_EMBEDDED_IO_HD_SOC_IN
+  PIN gfpga_pad_EMBEDDED_IO_HD_SOC_OUT
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 9.750 206.000 10.030 210.000 ;
+    END
+  END gfpga_pad_EMBEDDED_IO_HD_SOC_OUT
+  PIN left_grid_pin_0_
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 45.170 206.000 45.450 210.000 ;
+    END
+  END left_grid_pin_0_
+  PIN prog_clk_0_E_in
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 138.550 0.000 138.830 4.000 ;
+    END
+  END prog_clk_0_E_in
+  PIN right_width_0_height_0__pin_0_
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 64.640 4.000 65.240 ;
+    END
+  END right_width_0_height_0__pin_0_
+  PIN right_width_0_height_0__pin_1_lower
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 183.640 4.000 184.240 ;
+    END
+  END right_width_0_height_0__pin_1_lower
+  PIN right_width_0_height_0__pin_1_upper
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 196.000 102.040 200.000 102.640 ;
+    END
+  END right_width_0_height_0__pin_1_upper
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 194.120 198.645 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 194.120 198.800 ;
+      LAYER met2 ;
+        RECT 0.650 205.720 9.470 206.450 ;
+        RECT 10.310 205.720 19.130 206.450 ;
+        RECT 19.970 205.720 25.570 206.450 ;
+        RECT 26.410 205.720 35.230 206.450 ;
+        RECT 36.070 205.720 44.890 206.450 ;
+        RECT 45.730 205.720 54.550 206.450 ;
+        RECT 55.390 205.720 60.990 206.450 ;
+        RECT 61.830 205.720 70.650 206.450 ;
+        RECT 71.490 205.720 80.310 206.450 ;
+        RECT 81.150 205.720 86.750 206.450 ;
+        RECT 87.590 205.720 96.410 206.450 ;
+        RECT 97.250 205.720 106.070 206.450 ;
+        RECT 106.910 205.720 115.730 206.450 ;
+        RECT 116.570 205.720 122.170 206.450 ;
+        RECT 123.010 205.720 131.830 206.450 ;
+        RECT 132.670 205.720 141.490 206.450 ;
+        RECT 142.330 205.720 151.150 206.450 ;
+        RECT 151.990 205.720 157.590 206.450 ;
+        RECT 158.430 205.720 167.250 206.450 ;
+        RECT 168.090 205.720 176.910 206.450 ;
+        RECT 177.750 205.720 183.350 206.450 ;
+        RECT 184.190 205.720 193.010 206.450 ;
+        RECT 0.100 4.280 193.560 205.720 ;
+        RECT 0.650 0.155 6.250 4.280 ;
+        RECT 7.090 0.155 15.910 4.280 ;
+        RECT 16.750 0.155 25.570 4.280 ;
+        RECT 26.410 0.155 32.010 4.280 ;
+        RECT 32.850 0.155 41.670 4.280 ;
+        RECT 42.510 0.155 51.330 4.280 ;
+        RECT 52.170 0.155 60.990 4.280 ;
+        RECT 61.830 0.155 67.430 4.280 ;
+        RECT 68.270 0.155 77.090 4.280 ;
+        RECT 77.930 0.155 86.750 4.280 ;
+        RECT 87.590 0.155 93.190 4.280 ;
+        RECT 94.030 0.155 102.850 4.280 ;
+        RECT 103.690 0.155 112.510 4.280 ;
+        RECT 113.350 0.155 122.170 4.280 ;
+        RECT 123.010 0.155 128.610 4.280 ;
+        RECT 129.450 0.155 138.270 4.280 ;
+        RECT 139.110 0.155 147.930 4.280 ;
+        RECT 148.770 0.155 157.590 4.280 ;
+        RECT 158.430 0.155 164.030 4.280 ;
+        RECT 164.870 0.155 173.690 4.280 ;
+        RECT 174.530 0.155 183.350 4.280 ;
+        RECT 184.190 0.155 189.790 4.280 ;
+        RECT 190.630 0.155 193.560 4.280 ;
+      LAYER met3 ;
+        RECT 4.000 203.640 195.600 204.505 ;
+        RECT 4.000 201.640 196.000 203.640 ;
+        RECT 4.400 200.240 196.000 201.640 ;
+        RECT 4.000 194.840 196.000 200.240 ;
+        RECT 4.400 193.440 195.600 194.840 ;
+        RECT 4.000 188.040 196.000 193.440 ;
+        RECT 4.000 186.640 195.600 188.040 ;
+        RECT 4.000 184.640 196.000 186.640 ;
+        RECT 4.400 183.240 196.000 184.640 ;
+        RECT 4.000 177.840 196.000 183.240 ;
+        RECT 4.000 176.440 195.600 177.840 ;
+        RECT 4.000 174.440 196.000 176.440 ;
+        RECT 4.400 173.040 196.000 174.440 ;
+        RECT 4.000 167.640 196.000 173.040 ;
+        RECT 4.400 166.240 195.600 167.640 ;
+        RECT 4.000 160.840 196.000 166.240 ;
+        RECT 4.000 159.440 195.600 160.840 ;
+        RECT 4.000 157.440 196.000 159.440 ;
+        RECT 4.400 156.040 196.000 157.440 ;
+        RECT 4.000 150.640 196.000 156.040 ;
+        RECT 4.000 149.240 195.600 150.640 ;
+        RECT 4.000 147.240 196.000 149.240 ;
+        RECT 4.400 145.840 196.000 147.240 ;
+        RECT 4.000 140.440 196.000 145.840 ;
+        RECT 4.000 139.040 195.600 140.440 ;
+        RECT 4.000 137.040 196.000 139.040 ;
+        RECT 4.400 135.640 196.000 137.040 ;
+        RECT 4.000 130.240 196.000 135.640 ;
+        RECT 4.400 128.840 195.600 130.240 ;
+        RECT 4.000 123.440 196.000 128.840 ;
+        RECT 4.000 122.040 195.600 123.440 ;
+        RECT 4.000 120.040 196.000 122.040 ;
+        RECT 4.400 118.640 196.000 120.040 ;
+        RECT 4.000 113.240 196.000 118.640 ;
+        RECT 4.000 111.840 195.600 113.240 ;
+        RECT 4.000 109.840 196.000 111.840 ;
+        RECT 4.400 108.440 196.000 109.840 ;
+        RECT 4.000 103.040 196.000 108.440 ;
+        RECT 4.000 101.640 195.600 103.040 ;
+        RECT 4.000 99.640 196.000 101.640 ;
+        RECT 4.400 98.240 196.000 99.640 ;
+        RECT 4.000 92.840 196.000 98.240 ;
+        RECT 4.400 91.440 195.600 92.840 ;
+        RECT 4.000 86.040 196.000 91.440 ;
+        RECT 4.000 84.640 195.600 86.040 ;
+        RECT 4.000 82.640 196.000 84.640 ;
+        RECT 4.400 81.240 196.000 82.640 ;
+        RECT 4.000 75.840 196.000 81.240 ;
+        RECT 4.000 74.440 195.600 75.840 ;
+        RECT 4.000 72.440 196.000 74.440 ;
+        RECT 4.400 71.040 196.000 72.440 ;
+        RECT 4.000 65.640 196.000 71.040 ;
+        RECT 4.400 64.240 195.600 65.640 ;
+        RECT 4.000 58.840 196.000 64.240 ;
+        RECT 4.000 57.440 195.600 58.840 ;
+        RECT 4.000 55.440 196.000 57.440 ;
+        RECT 4.400 54.040 196.000 55.440 ;
+        RECT 4.000 48.640 196.000 54.040 ;
+        RECT 4.000 47.240 195.600 48.640 ;
+        RECT 4.000 45.240 196.000 47.240 ;
+        RECT 4.400 43.840 196.000 45.240 ;
+        RECT 4.000 38.440 196.000 43.840 ;
+        RECT 4.000 37.040 195.600 38.440 ;
+        RECT 4.000 35.040 196.000 37.040 ;
+        RECT 4.400 33.640 196.000 35.040 ;
+        RECT 4.000 28.240 196.000 33.640 ;
+        RECT 4.400 26.840 195.600 28.240 ;
+        RECT 4.000 21.440 196.000 26.840 ;
+        RECT 4.000 20.040 195.600 21.440 ;
+        RECT 4.000 18.040 196.000 20.040 ;
+        RECT 4.400 16.640 196.000 18.040 ;
+        RECT 4.000 11.240 196.000 16.640 ;
+        RECT 4.000 9.840 195.600 11.240 ;
+        RECT 4.000 7.840 196.000 9.840 ;
+        RECT 4.400 6.440 196.000 7.840 ;
+        RECT 4.000 1.040 196.000 6.440 ;
+        RECT 4.000 0.175 195.600 1.040 ;
+  END
+END cby_0__1_
+END LIBRARY
+
