@@ -1,4 +1,4 @@
-# my_openlane_project
+# User Manual
 
 1. Use `git clone` to clone this repo into `your_home/OpenLane/designs`
 2. Run `make mount` under the `OpenLane` dictionary
