@@ -6,13 +6,13 @@ MACRO tie_array
   CLASS BLOCK ;
   FOREIGN tie_array ;
   ORIGIN 0.000 0.000 ;
-  SIZE 200.000 BY 210.000 ;
+  SIZE 50.000 BY 55.000 ;
   PIN VGND
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 97.840 10.640 99.440 198.800 ;
+        RECT 28.720 10.640 30.320 54.640 ;
     END
   END VGND
   PIN VPWR
@@ -20,11 +20,11 @@ MACRO tie_array
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 21.040 10.640 22.640 198.800 ;
+        RECT 21.040 10.640 22.640 54.640 ;
     END
     PORT
       LAYER met4 ;
-        RECT 174.640 10.640 176.240 198.800 ;
+        RECT 36.400 10.640 38.000 54.640 ;
     END
   END VPWR
   PIN x[0]
@@ -32,7 +32,7 @@ MACRO tie_array
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 196.510 206.000 196.790 210.000 ;
+        RECT 3.770 0.000 4.050 4.000 ;
     END
   END x[0]
   PIN x[1]
@@ -40,23 +40,23 @@ MACRO tie_array
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 99.910 0.000 100.190 4.000 ;
+        RECT 9.750 0.000 10.030 4.000 ;
     END
   END x[1]
   PIN x[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 196.000 105.440 200.000 106.040 ;
+      LAYER met2 ;
+        RECT 15.730 0.000 16.010 4.000 ;
     END
   END x[2]
   PIN x[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 102.040 4.000 102.640 ;
+      LAYER met2 ;
+        RECT 21.710 0.000 21.990 4.000 ;
     END
   END x[3]
   PIN x[4]
@@ -64,15 +64,15 @@ MACRO tie_array
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 0.090 0.000 0.370 4.000 ;
+        RECT 27.690 0.000 27.970 4.000 ;
     END
   END x[4]
   PIN x[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 207.440 4.000 208.040 ;
+      LAYER met2 ;
+        RECT 33.670 0.000 33.950 4.000 ;
     END
   END x[5]
   PIN x[6]
@@ -80,36 +80,33 @@ MACRO tie_array
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 96.690 206.000 96.970 210.000 ;
+        RECT 39.650 0.000 39.930 4.000 ;
     END
   END x[6]
   PIN x[7]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 196.000 0.040 200.000 0.640 ;
+      LAYER met2 ;
+        RECT 45.630 0.000 45.910 4.000 ;
     END
   END x[7]
   OBS
       LAYER li1 ;
-        RECT 5.520 10.795 194.120 198.645 ;
+        RECT 5.520 10.795 44.160 54.485 ;
       LAYER met1 ;
-        RECT 0.070 10.640 196.810 198.800 ;
+        RECT 3.750 10.640 45.930 54.640 ;
       LAYER met2 ;
-        RECT 0.100 205.720 96.410 207.925 ;
-        RECT 97.250 205.720 196.230 207.925 ;
-        RECT 0.100 4.280 196.780 205.720 ;
-        RECT 0.650 0.155 99.630 4.280 ;
-        RECT 100.470 0.155 196.780 4.280 ;
+        RECT 3.780 4.280 45.900 54.585 ;
+        RECT 4.330 4.000 9.470 4.280 ;
+        RECT 10.310 4.000 15.450 4.280 ;
+        RECT 16.290 4.000 21.430 4.280 ;
+        RECT 22.270 4.000 27.410 4.280 ;
+        RECT 28.250 4.000 33.390 4.280 ;
+        RECT 34.230 4.000 39.370 4.280 ;
+        RECT 40.210 4.000 45.350 4.280 ;
       LAYER met3 ;
-        RECT 4.400 207.040 196.000 207.905 ;
-        RECT 4.000 106.440 196.000 207.040 ;
-        RECT 4.000 105.040 195.600 106.440 ;
-        RECT 4.000 103.040 196.000 105.040 ;
-        RECT 4.400 101.640 196.000 103.040 ;
-        RECT 4.000 1.040 196.000 101.640 ;
-        RECT 4.000 0.175 195.600 1.040 ;
+        RECT 21.050 10.715 37.990 54.565 ;
   END
 END tie_array
 END LIBRARY

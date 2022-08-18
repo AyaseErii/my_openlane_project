@@ -13980,7 +13980,7 @@ module fpga_core
   );
 
 
-  sb_1__1_  sb_7__6_
+  sb_1__1_ sb_7__6_
   (
     .clk_2_S_out(clk_2_wires[50]),
     .clk_2_N_out(clk_2_wires[48]),
@@ -14032,6 +14032,7 @@ module fpga_core
     .chanx_left_out(sb_1__1__47_chanx_left_out[0:19]),
     .ccff_tail(sb_1__1__47_ccff_tail[0])
   );
+
 
 
   sb_1__1_ sb_7__7_
